@@ -1,5 +1,3 @@
-from tkinter import CASCADE
-from pydantic import BaseModel
 from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, false
 from sqlalchemy.sql.sqltypes import TIMESTAMP
 from sqlalchemy.sql.expression import text
